@@ -19,7 +19,12 @@ import wholesalemarket_SMP.SMP_Market_Controller;
  */
 public class Dayaheadinterface extends Agent{
     
-    private MarketParticipants participants;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	private MarketParticipants participants;
     
     private String[][] producerOffers = new String[23][2];
     private String[][] buyerOffers = new String[23][2];
